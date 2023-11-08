@@ -10,7 +10,6 @@ const servo1 = robotbit.Servos.S1
 
 // setup
 basic.showIcon(IconNames.Happy)
-basic.clearScreen()
 
 input.onButtonPressed(Button.A, function () {
   robotbit.Servo(servo1, 0)
